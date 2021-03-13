@@ -54,7 +54,7 @@ export default function Last() {
 
                 <h2>Download</h2>
                 {/* <img style={{ marginTop: "-7%", width: "50%" }} src={gp}></img> */}
-                <img style={{ marginTop: '-0px' }} alt="playstore" height="50px" width="180px" src={gp}></img>
+                <img style={{ marginTop: '10px' }} alt="playstore" height="50px" width="180px" src={gp}></img>
                 <br></br>
                 <br></br>
 

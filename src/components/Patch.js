@@ -13,7 +13,7 @@ export default class Patch extends Component {
                     <h1>Let's get your job done<br></br> <span>on-demand!</span> </h1>
 
                     <div className="getstartedButton">
-                        <button className="youthButton_or" style={{ background: 'white', color: '#6651B1' }} > Get Started
+                        <button className="youthButton_or" style={{ background: '#042657', color: 'white', borderRadius:'30px' }} > Get Started
                         {/* <hr className="youth_button_line_or" style={{ borderColor: '#6651B1' }}></hr> */}
                         </button>
                     </div>

@@ -4,52 +4,12 @@ import cp from '../images/cp.png'
 import ub from '../images/ub.png'
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
+// import 
 //  import { Slide } from 'react-slideshow-image';
 // import 'react-slideshow-image/dist/styles.css'
 
 export default function Slider() {
     return (
-        // <div className="slider">
-        //     <div className="slides">
-        //         <div className="rad-buttons">
-        //     <input type="radio" className="radio1" name="radio-btn"></input>
-        //     <input type="radio" className="radio2" name="radio-btn"></input>
-        //     <input type="radio" className="radio3" name="radio-btn"></input>
-        //     </div>
-
-        //     <div className="slide-first">
-        //         <img className="cl" src={cl} ></img>
-        //         <div className="slider-p"><p>"It was great working with your team for launching
-        //          our new markets in North India. Seamlessly handling our 
-        //          own ground activations with support in core areas like providing
-        //          quality part-time workforce, ensuring smooth execution of activations, 
-        //          time reporting on real time basis and making sure the work is done with
-        //          you guys further."</p>
-        //          <h1>Anisha Sharma</h1>
-        //          <h3>Marketing Head, Uber Eats India</h3></div>
-        //     </div>
-        //     <div className="slide-two">
-        //         <img className="cp" src={cp} ></img>
-        //         <p className="slider-p">cgjvjhbf sfsfjhbsjfdksf fhfnkjfn sdnfbjsfsfjnsf</p>
-        //     </div>
-        //     <div className="slide-three">
-        //         <img className="uber" src={ub} ></img>
-        //         <p className="slider-p">cgjvjhbf sfsfjhbsjfdksf fhfnkjfn sdnfbjsfsfjnsf</p>
-        //     </div>
-
-        //     <div className="nav-auto">
-        //         <div className="auto-btn1"></div>
-        //         <div className="auto-btn2"></div>
-        //         <div className="auto-btn3"></div>
-        //     </div>
-
-        //     </div> 
-        //     <div className="nav-manual">
-        //         <label for="radio" className="manual-btn" id="radio1"></label>
-        //         <label for="radio" className="manual-btn" id="radio2"></label>
-        //         <label for="radio" className="manual-btn" id="radio3"></label>
-        //     </div>
-
         // </div>
         <div className="slideit">
             <AliceCarousel stylw={{ marginBottom: '-65px !important' }} className="slide-z" autoPlay autoPlayInterval="5000">

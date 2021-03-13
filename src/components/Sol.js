@@ -28,10 +28,11 @@ export default function Sol() {
                 <div className="getintouch">
                     <h1 className="getinh">Customised Solution</h1>
                     <p className="getinp">Our talented workforce (The Youthance Army, also known as Youthancers!!) helps you to set up unique tailor made solutions for all your business needs. </p>
-                    <button className="getinb">Let's Get in Touch</button>
+                    <button type="submit" className="getinb">Let's Get in Touch</button>
                 </div>
                 <div className="faded">
-                    <h3>Small opportunities are often the beginning of great achievements. Connect. Collaborate. Grow
+                    <h3>Small opportunities are often the beginning of great achievements.</h3> 
+                    <h3>Connect. Collaborate. Grow
                     </h3>
                 </div>
 

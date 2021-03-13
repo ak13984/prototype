@@ -61,7 +61,7 @@
   width: 40%;
   /* position: fixed; */
 }
-.nav-links a{
+.nav-links>a{
   font-size: 18px;
   font-weight: 500;
   /* padding: 10px 15px; */
@@ -106,6 +106,7 @@ margin-left: -15%;
     display: block;
   }
   .nav-links{
+
     position:absolute;
     display: block;
     top:0;
@@ -374,7 +375,7 @@ margin-left: -15%;
 
     .card-place{
       margin-top: 220px;
-      margin-left: 40px;
+      margin-left: 45px;
       margin-bottom: 350px;
       padding: 0px 12px;
 
@@ -386,7 +387,7 @@ margin-left: -15%;
       margin-bottom: -30px; */
       margin-top: 50px;
       margin-bottom: 35px;
-      border: 3px solid #6543B1;
+      border: 4px solid #6543B1;
       width: 6%;
       margin-left: 4%;
   }
@@ -558,13 +559,14 @@ margin-left: -15%;
 
   padding-left: 6%;
   /* padding-top:12% */
-  margin-top: 10%;
+  margin-top: 100px;
+display: flex;
+
 }
 .watch{
   
   width: 40%;
-  float:right;
-  margin-top:-40%;
+  /* float:right; */
   margin-right: 50px;
   
 }
@@ -591,22 +593,22 @@ border-radius: 5px;
 }
 .branding1{
   text-align: center;
- margin-top: 15%;
-  margin-bottom: -10%;
+ margin-top: 10%;
+  margin-bottom: -15px;
   background-color: rgb(241, 239, 239);
   padding-top: 1px;
-  margin-left: -10%;
+  /* margin-left: -10%; */
   /* background-color: rgb(214, 214, 214); */
 }
-.branding1 h2{
+h2{
   font-size: 30px ;
-   font-weight: 500;
+   font-weight:bold;
           color: #FD581F;
           margin-top:50px;
           margin-bottom: -10px;
 }
 .br1{
-  padding-top:3%;
+  /* padding-top:3%; */
   width:80%;
 }
 
@@ -635,7 +637,7 @@ border-radius: 5px;
   .new5{
     margin: 0 auto;
     width: 13%;
-    border: 3px solid #6543B1 ;
+    border: 4px solid #6543B1 ;
     margin-top: 5%;
     
   }
@@ -648,11 +650,8 @@ border-radius: 5px;
   }
   .watch{
     
-  position: absolute;
-  top:115%;
-  left:20%;
   width: 100%;
-    
+  margin-top: 20px;  
   } 
   
   .getstarted{
@@ -664,7 +663,8 @@ border-radius: 5px;
  .branding1{
      /* display: none; */
      background-color: transparent;
-     padding-left: 40px;;
+     padding-left: 40px;
+  margin-top:-100px;   
  }
  .branding1 h2{
   font-size: 20px;
@@ -680,7 +680,7 @@ border-radius: 5px;
       /* Buss Comp Start */
 
       .bus-div{
-        margin-top: 14%;
+        margin-top: 100px;
         /* margin-bottom: 45%; */
       }
 
@@ -696,7 +696,7 @@ border-radius: 5px;
      }
      .new4{
         margin-bottom: 35px;
-        border: 3px solid #6543B1;
+        border: 4px solid #6543B1;
         width: 6%;
         margin-left: 5%;
      }
@@ -810,6 +810,7 @@ border-radius: 5px;
 .sol-div{
   display: flex;
   margin-left: 5%;
+  margin-top:5%;
 }
 .blob{
   width: 23%;
@@ -835,6 +836,7 @@ color: #042657;
   width:170px;
   height:35px;
   border:none;
+  border-radius: 5px;
   background-color:  #6543B1;
   color:white;
   outline: none;
@@ -875,14 +877,10 @@ color: #042657;
     display: none;
   }
   .watch{
-    height: 50%;        
+    height: 65%;        
     }
+  
 }
-/* @media(max-width: 1200px){
-  .watch{
-    height: 46%;        
-    }
-} */
 
 @media(min-width: 1500px){
     .watch{
@@ -902,11 +900,6 @@ color: #042657;
       }
   }
 
-/* @media(min-width: 980px){
-    .watch{
-        height: 65%;
-    }
-} */
 
    /* Sol component End */
 
@@ -917,14 +910,14 @@ color: #042657;
    .new4h{
     margin-top: 50px;
     margin-bottom: 35px;
-    border: 3px solid #6543B1;
+    border: 4px solid #6543B1;
       width:6%;
       margin-left: 5%;
    }
    .how-div{
    
     padding-top: 6%;
-    
+    margin-top:3% 
   }
 .how{
   margin-left: 5% ;
@@ -970,7 +963,7 @@ color: #042657;
 @media(max-width:768px){
   .new4{
     margin: 0 auto;
-    border: 3px solid #6543B1;
+    border: 4px solid #6543B1;
     
   }
   .how-div{
@@ -982,7 +975,7 @@ color: #042657;
     /* position: absolute; */
 
     margin: 0 auto;
-    border: 3px solid #6543B1;
+    border: 4px solid #6543B1;
     margin-top: 1450px;
     margin-left: 44% ;
 
@@ -1056,7 +1049,7 @@ height: 20%;
 /* Slider component End */
 
 .slideit{
-  margin-top: 8%;
+  margin-top: 10%;
 }
 .sliderimg{
   margin-bottom: 20px;
@@ -1081,6 +1074,7 @@ height: 20%;
   width: 20%;
 height: 20%;
 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+margin-top:10px;
 }
 
 @media(max-width:768px){
@@ -2125,3 +2119,27 @@ border: 2px solid #e9a1ff;
 .divLeft, .divRight{
     width: 50%;
 }
+
+@media(max-width:1200px){
+    .customLink{
+margin-left: 7px  ;
+margin-right: 7px ;
+font-size:15px ;
+  }
+  .navbar{
+   justify-content: flex-start ;
+  }
+}
+
+@media(max-width:1096px){
+  .navbar{
+    justify-content: left !important;
+  }
+
+}
+
+/* @media(max-width:1120px){
+  .introp{
+    font-size:15px;
+  }
+} */
